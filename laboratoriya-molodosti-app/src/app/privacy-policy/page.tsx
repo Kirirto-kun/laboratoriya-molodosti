@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Общие положения</h2>
               <p className="text-gray-700 mb-4">
                 Настоящее согласие на обработку персональных данных (далее — &quot;Согласие&quot;) 
-                дается ООО &quot;Лаборатория молодости&quot; (далее — &quot;Оператор&quot;) в соответствии 
+                дается ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot; (далее — &quot;Оператор&quot;) в соответствии 
                 с Федеральным законом от 27.07.2006 № 152-ФЗ &quot;О персональных данных&quot;.
               </p>
               <p className="text-gray-700 mb-4">
@@ -130,7 +130,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Контактная информация</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>ООО &quot;Лаборатория молодости&quot;</strong>
+                  <strong>ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot;</strong>
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Адрес:</strong> [Указать юридический адрес]

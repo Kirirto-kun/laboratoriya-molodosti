@@ -15,7 +15,7 @@ export default function PublicOffer() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Общие положения</h2>
               <p className="text-gray-700 mb-4">
-                Настоящий документ является публичной офертой ООО &quot;Лаборатория молодости&quot; 
+                Настоящий документ является публичной офертой ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot; 
                 (далее — &quot;Исполнитель&quot;) на оказание медицинских и косметологических услуг 
                 физическим лицам (далее — &quot;Заказчик&quot;).
               </p>
@@ -99,19 +99,37 @@ export default function PublicOffer() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Контактная информация</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>ООО &quot;Лаборатория молодости&quot;</strong>
+                  <strong>ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot;</strong>
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Адрес:</strong> [Указать юридический адрес]
+                  <strong>Адрес:</strong> Московская обл., Ногинский район, город Старая Купавна, ул. Ленина, д.57, кв.40
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Телефон:</strong> [Указать номер телефона]
+                  <strong>Телефон:</strong> 8-916-9898522
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Email:</strong> [Указать email]
+                  <strong>ИНН:</strong> 503111822990
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Банковские реквизиты</h2>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <p className="text-gray-700 mb-2">
+                  <strong>Банк:</strong> АО «Тинькофф-Банк»
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong>ИНН банка:</strong> 7710140679
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong>БИК:</strong> 044525974
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong>Расчетный счет:</strong> 40802810100001191808
                 </p>
                 <p className="text-gray-700">
-                  <strong>ИНН:</strong> [Указать ИНН]
+                  <strong>Корр. счет:</strong> 30101810145250000974
                 </p>
               </div>
             </section>

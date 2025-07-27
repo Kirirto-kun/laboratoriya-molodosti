@@ -22,7 +22,7 @@ export default function DataProcessingPolicy() {
               </p>
               <p className="text-gray-700 mb-4">
                 Политика определяет порядок и условия обработки персональных данных, 
-                а также меры по обеспечению их безопасности в ООО &quot;Лаборатория молодости&quot; 
+                а также меры по обеспечению их безопасности в ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot; 
                 (далее — &quot;Общество&quot;).
               </p>
             </section>
@@ -141,7 +141,7 @@ export default function DataProcessingPolicy() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Контактная информация</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>ООО &quot;Лаборатория молодости&quot;</strong>
+                  <strong>Проект &quot;Лаборатория молодости&quot;</strong>
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Адрес:</strong> [Указать юридический адрес]
