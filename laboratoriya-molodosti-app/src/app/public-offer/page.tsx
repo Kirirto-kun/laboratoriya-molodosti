@@ -15,9 +15,9 @@ export default function PublicOffer() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Общие положения</h2>
               <p className="text-gray-700 mb-4">
-                Настоящий документ является публичной офертой ООО "Лаборатория молодости" 
-                (далее — "Исполнитель") на оказание медицинских и косметологических услуг 
-                физическим лицам (далее — "Заказчик").
+                Настоящий документ является публичной офертой ООО &quot;Лаборатория молодости&quot; 
+                (далее — &quot;Исполнитель&quot;) на оказание медицинских и косметологических услуг 
+                физическим лицам (далее — &quot;Заказчик&quot;).
               </p>
               <p className="text-gray-700 mb-4">
                 В соответствии с пунктом 2 статьи 437 Гражданского кодекса Российской Федерации, 
@@ -99,7 +99,7 @@ export default function PublicOffer() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Контактная информация</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>ООО "Лаборатория молодости"</strong>
+                  <strong>ООО &quot;Лаборатория молодости&quot;</strong>
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Адрес:</strong> [Указать юридический адрес]
