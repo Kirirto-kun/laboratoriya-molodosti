@@ -133,16 +133,13 @@ export default function PrivacyPolicy() {
                   <strong>ИП Бурмистров Илья Борисович, ИИ-сервис &quot;Лаборатория молодости&quot;</strong>
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Адрес:</strong> [Указать юридический адрес]
+                  <strong>Адрес:</strong> Московская обл., Ногинский район, город Старая Купавна, ул. Ленина, д.57, кв.40
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Телефон:</strong> [Указать номер телефона]
+                  <strong>Телефон:</strong> 8-916-9898522
                 </p>
                 <p className="text-gray-700 mb-2">
-                  <strong>Email:</strong> [Указать email]
-                </p>
-                <p className="text-gray-700">
-                  <strong>ИНН:</strong> [Указать ИНН]
+                  <strong>ИНН:</strong> 503111822990
                 </p>
               </div>
             </section>

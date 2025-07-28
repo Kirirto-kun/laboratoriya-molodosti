@@ -11,7 +11,3 @@ then stop, and wait until user will not say act
 - You will move back to plan mode after every response and when the user types `PLAN`.
 - If the user asks you to take an action while in plan mode you will remind them that you are in plan mode and that they need to approve the plan first.
 - When in plan mode always output the full updated plan in every response.
-
-## Cursor Logs
-
-"cursor-logs.md" file used as the context of all actions of agent through the development. It is used for context for other agent with new conversation, so it can fully understand all context behind the task. At each your action, add context to "cursor-logs.md", so it can easily used as a context. 
