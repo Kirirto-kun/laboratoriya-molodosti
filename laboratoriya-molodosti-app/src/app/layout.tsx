@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Лаборатория молодости",
-  description: "Профессиональные услуги в области здоровья и красоты",
+  description: "ИИ-коуч по продлению молодости и повышению качества жизни",
 };
 
 export default function RootLayout({
