@@ -13,9 +13,9 @@ export default function Home() {
               Расшифровываем анализы, показываем риски старения и создаём простой план продления молодости и повышения качества жизни.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+              <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
                 Начать в Telegram
-              </button>
+              </a>
               <button className="border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
                 Узнать больше
               </button>
@@ -92,9 +92,9 @@ export default function Home() {
                 Мы не лечим — мы предотвращаем: предупреждаем риски и старение на раннем этапе, 
                 делая медицину доступной в повседневной жизни через Telegram.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+              <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
                 Попробовать бесплатно
-              </button>
+              </a>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Наши преимущества</h3>
@@ -225,9 +225,9 @@ export default function Home() {
                     Пробный период стартует спустя 24 часа после первого запроса
                   </li>
                 </ul>
-                <button className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
                   Попробовать бесплатно
-                </button>
+                </a>
               </div>
             </div>
 
@@ -256,9 +256,9 @@ export default function Home() {
                     Подробная расшифровка
                   </li>
                 </ul>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
                   Выбрать тариф
-                </button>
+                </a>
               </div>
             </div>
 
@@ -298,9 +298,9 @@ export default function Home() {
                     Приоритетная поддержка
                   </li>
                 </ul>
-                <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
                   Выбрать тариф
-                </button>
+                </a>
               </div>
             </div>
 
@@ -341,9 +341,9 @@ export default function Home() {
                     Семейный доступ
                   </li>
                 </ul>
-                <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
                   Выбрать тариф
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -361,9 +361,9 @@ export default function Home() {
             с помощью нашего ИИ-ассистента в Telegram
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+            <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
               Открыть в Telegram
-            </button>
+            </a>
             <button className="border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
               Демо-версия
             </button>
