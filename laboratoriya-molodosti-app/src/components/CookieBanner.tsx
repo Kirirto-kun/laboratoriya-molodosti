@@ -12,7 +12,7 @@ export const CookieBanner = () => {
 
   // Определяем, является ли текущая страница страницей с документами
   useEffect(() => {
-    const policyPages = ['/privacy-policy', '/data-processing-policy', '/public-offer'];
+    const policyPages = ['/privacy-policy', '/data-processing-policy', '/public-offer', '/special-category-consent'];
     setIsPolicyPage(policyPages.includes(pathname));
   }, [pathname]);
 
