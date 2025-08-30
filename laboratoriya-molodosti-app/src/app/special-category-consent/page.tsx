@@ -1,13 +1,13 @@
 import React from 'react';
 
-const PrivacyPolicy = () => {
+const SpecialCategoryConsent = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div style={{ fontFamily: 'sans-serif', lineHeight: '1.6', color: '#1a202c' }}>
             <h1 style={{ fontSize: '2.25rem', fontWeight: 'bold', marginBottom: '1rem', textAlign: 'center' }}>
-              Согласие на обработку персональных данных
+              Согласие на обработку персональных данных специальной категории
             </h1>
             
             <div className="prose prose-lg max-w-none">
@@ -15,15 +15,22 @@ const PrivacyPolicy = () => {
                 Я, лицо (далее – «Пользователь»), достигшее на момент дачи настоящего согласия возраста 18 (восемнадцати) лет, 
                 подтвердившее настоящее согласие в Сервисах Оператора путем проставления соответствующей «галочки», 
                 даю свое согласие на обработку сообщенных мной в целях использования ИИ-сервиса «Лаборатория молодости PREVENTUM» 
-                в соответствии с <a href="/public-offer" className="text-blue-600 hover:text-blue-800 underline">Публичной офертой</a> персональных данных.
+                в соответствии с <a href="/public-offer" className="text-blue-600 hover:text-blue-800 underline">Публичной офертой</a> 
+                персональных данных специальной категории, а именно:
               </p>
+
+              <div className="mb-6">
+                <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                  <li>результаты анализов и иных лабораторных исследований, данных о состоянии здоровья.</li>
+                </ul>
+              </div>
 
               <p className="text-gray-700 mb-6">
                 Согласие является конкретным, предметным, информированным, сознательным и однозначным.
               </p>
 
               <p className="text-gray-700 mb-6">
-                Оператор обрабатывает персональные данные в соответствии с 
+                Оператор обрабатывает персональные данные указанной специальной категории в соответствии с 
                 <a href="/data-processing-policy" className="text-blue-600 hover:text-blue-800 underline"> Политикой в области обработки и обеспечения безопасности персональных данных</a> 
                 любыми способами, необходимыми для использования Сервиса, как с использованием средств автоматизации, 
                 так и без использования таких средств следующими способами: сбор, запись, систематизация, накопление, 
@@ -32,7 +39,9 @@ const PrivacyPolicy = () => {
               </p>
 
               <p className="text-gray-700 mb-6">
-                Согласие действует с момента его предоставления и до момента отзыва Согласия.
+                Обработка предоставляемых Пользователем специальной категории персональных данных осуществляется 
+                в соответствии с целями, установленными 
+                <a href="/data-processing-policy" className="text-blue-600 hover:text-blue-800 underline"> Политикой Оператора в области обработки и обеспечения безопасности персональных данных</a>.
               </p>
 
               <div className="mb-6">
@@ -90,4 +99,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default SpecialCategoryConsent;

@@ -10,7 +10,7 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Твой персональный ИИ-коуч по биологическому возрасту в Telegram. 
-              Расшифровываем анализы, показываем риски старения и создаём простой план продления молодости и повышения качества жизни.
+              Расшифровываем анализы и создаём простой план продления молодости и повышения качества жизни.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
@@ -36,40 +36,28 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="text-center p-6 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Расшифровка анализов</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Интерпретация анализов</h3>
               <p className="text-gray-600">
-                Превращаем непонятные медицинские анализы в понятную стратегию здоровья
+                Превращаем непонятные медицинские анализы в понятную стратегию здоровья с подробной расшифровкой
               </p>
             </div>
 
             <div className="text-center p-6 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Биологический возраст</h3>
-              <p className="text-gray-600">
-                Оцениваем ваш биологический возраст и отслеживаем динамику здоровья
-              </p>
-            </div>
-
-            <div className="text-center p-6 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Персональный план</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Персональные планы</h3>
               <p className="text-gray-600">
-                Создаём простой, безопасный и научно обоснованный план молодости
+                Создаём простой, безопасный и научно обоснованный план продления молодости и улучшения здоровья
               </p>
             </div>
           </div>
@@ -93,7 +81,7 @@ export default function Home() {
                 делая медицину доступной в повседневной жизни через Telegram.
               </p>
               <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
-                Попробовать бесплатно
+                Начать в Telegram
               </a>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -141,7 +129,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 1
@@ -166,19 +154,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 3
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Получите оценку</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Получите результат</h3>
               <p className="text-gray-600">
-                ИИ проанализирует данные и покажет ваш биологический возраст
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                4
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Следуйте плану</h3>
-              <p className="text-gray-600">
-                Получите персональный план для замедления старения
+                ИИ проанализирует данные и создаст персональный план
               </p>
             </div>
           </div>
@@ -190,159 +168,96 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Выберите подходящий тариф
+              Наши услуги
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Начните с бесплатного теста или выберите оптимальный план для ваших целей
+              Выберите нужную услугу и получите профессиональную помощь от ИИ-ассистента
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Free Trial */}
-            <div className="bg-white rounded-lg shadow-lg p-6 border-2 border-green-200 hover:shadow-xl transition-shadow duration-300">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Интерпретация анализов */}
+            <div className="bg-white rounded-lg shadow-lg p-8 border-2 border-blue-200 hover:shadow-xl transition-shadow duration-300">
               <div className="text-center">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Бесплатный тест</h3>
-                <div className="text-3xl font-bold text-green-600 mb-4">Бесплатно</div>
-                <ul className="text-sm text-gray-600 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <svg className="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    1 запрос по анализу данных
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    14 дней общения с ботом
-                  </li>
-                  <li className="text-xs text-gray-500 mt-3">
-                    Пробный период стартует спустя 24 часа после первого запроса
-                  </li>
-                </ul>
-                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
-                  Попробовать бесплатно
-                </a>
-              </div>
-            </div>
-
-            {/* Start */}
-            <div className="bg-white rounded-lg shadow-lg p-6 border-2 border-blue-200 hover:shadow-xl transition-shadow duration-300">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Старт</h3>
-                <div className="text-3xl font-bold text-blue-600 mb-1">199 ₽</div>
-                <div className="text-sm text-gray-500 mb-4">за каждую интерпретацию</div>
-                <ul className="text-sm text-gray-600 mb-6 space-y-2">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Интерпретация анализов</h3>
+                <div className="text-4xl font-bold text-blue-600 mb-2">199 ₽</div>
+                <div className="text-sm text-gray-500 mb-6">за одну интерпретацию</div>
+                <ul className="text-sm text-gray-600 mb-8 space-y-3">
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    PDF-отчет по анализу
+                    Подробная расшифровка анализов
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Подробная расшифровка
+                    Оценка биологического возраста
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    Выявление рисков старения
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    PDF-отчет с рекомендациями
                   </li>
                 </ul>
                 <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
-                  Выбрать тариф
+                  Заказать интерпретацию
                 </a>
               </div>
             </div>
 
-            {/* Advanced */}
-            <div className="bg-white rounded-lg shadow-lg p-6 border-2 border-purple-200 hover:shadow-xl transition-shadow duration-300 relative">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                <span className="bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                  Популярный
-                </span>
-              </div>
+            {/* Создание персональных планов */}
+            <div className="bg-white rounded-lg shadow-lg p-8 border-2 border-green-200 hover:shadow-xl transition-shadow duration-300">
               <div className="text-center">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Продвинутый</h3>
-                <div className="text-3xl font-bold text-purple-600 mb-1">699 ₽</div>
-                <div className="text-sm text-gray-500 mb-4">в месяц</div>
-                <ul className="text-sm text-gray-600 mb-6 space-y-2">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Персональные планы</h3>
+                <div className="text-4xl font-bold text-green-600 mb-2">199 ₽</div>
+                <div className="text-sm text-gray-500 mb-6">за создание плана</div>
+                <ul className="text-sm text-gray-600 mb-8 space-y-3">
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Безлимитные интерпретации
+                    Индивидуальный план действий
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Диалоги с ИИ (AI-рекомендации)
+                    Рекомендации по питанию
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    Приоритетная поддержка
-                  </li>
-                </ul>
-                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
-                  Выбрать тариф
-                </a>
-              </div>
-            </div>
-
-            {/* Family */}
-            <div className="bg-white rounded-lg shadow-lg p-6 border-2 border-yellow-200 hover:shadow-xl transition-shadow duration-300">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Семейный</h3>
-                <div className="text-3xl font-bold text-yellow-600 mb-1">6 900 ₽</div>
-                <div className="text-sm text-gray-500 mb-4">в год</div>
-                <ul className="text-sm text-gray-600 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <svg className="w-4 h-4 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Расширенная аналитика
+                    Программа физической активности
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    История изменений
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-4 h-4 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Персональная программа
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-4 h-4 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Семейный доступ
+                    План по замедлению старения
                   </li>
                 </ul>
-                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
-                  Выбрать тариф
+                <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+                  Создать план
                 </a>
               </div>
             </div>
@@ -351,7 +266,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             Готовы начать путь к молодости?
@@ -364,9 +279,6 @@ export default function Home() {
             <a href="https://t.me/PREVENTUM_bot" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
               Открыть в Telegram
             </a>
-            <button className="border border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
-              Демо-версия
-            </button>
           </div>
         </div>
       </section>
