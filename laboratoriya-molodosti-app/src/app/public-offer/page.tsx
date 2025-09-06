@@ -9,7 +9,7 @@ export default function PublicOffer() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              <strong>Дата вступления в силу:</strong> 1 января 2024 года
+              <strong>Дата вступления в силу: </strong> 25.08.2025
             </p>
 
             <section className="mb-8">
